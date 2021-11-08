@@ -6,6 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./collections-home.component.css']
 })
 export class CollectionsHomeComponent implements OnInit {
+  data = [
+    {name:'max',age:25,job:'Designer'},
+    {name:'manu',age:27,job:'Painter'},
+    {name:'maverik',age:29,job:'Rider'}
+
+  ]
+
+  headers = [
+    {key:'name',label:'Name'},
+    {key:'age',label:'age'},
+    {key:'job',label:'job'}
+
+  ]
 
   constructor() { }
 
