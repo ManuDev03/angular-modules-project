@@ -8,7 +8,11 @@
     </thead>
     <tbody>
         <tr *ngFor="let record of data">
-            {{record | json}}
+            <td *ngFor="let header of headers">
+
+            {{record[header.key]}}
+
+            </td>
         </tr>
     </tbody>
 </table>
