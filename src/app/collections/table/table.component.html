@@ -6,4 +6,9 @@
             </th>
         </tr>
     </thead>
+    <tbody>
+        <tr *ngFor="let record of data">
+            {{record | json}}
+        </tr>
+    </tbody>
 </table>
