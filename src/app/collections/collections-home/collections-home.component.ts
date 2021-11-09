@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./collections-home.component.css']
 })
 export class CollectionsHomeComponent implements OnInit {
+  partoflink ='manu'
   data = [
     {name:'max',age:25,job:'Designer'},
     {name:'manu',age:27,job:'Painter'},
