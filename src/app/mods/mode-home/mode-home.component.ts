@@ -14,7 +14,6 @@ export class ModeHomeComponent implements OnInit {
 
   onClick(){
     this.modelOpen = !this.modelOpen
-
   }
 
 }
